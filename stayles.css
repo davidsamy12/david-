@@ -1,0 +1,53 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+
+*  {
+
+
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+     font-family: "poppins";
+}
+
+body {
+     background: linear-gradient(rgba(45,44,44,0.7), rgba(45,44,44,0.7)), url('5.jpg') no-repeat center center fixed;
+     background-size: cover;
+     min-height: 100vh;
+}
+
+header{
+     display: flex;
+     justify-content:  space-between ;
+     align-items: center;
+     margin: 2rem auto;
+     padding: 0.50;
+     max-width: 1200px;
+}
+
+.logo h1 {
+     color: hsl(0, 0%, 100%);
+     /* يمكنك تغيير اللون هنا */
+     letter-spacing: 2px;
+     font-weight: bold;
+}
+
+ .navigation ul {
+     display: flex;
+     list-style-type: none;
+     gap: 2rem;
+}
+.navigation a {
+     text-decoration:none ;
+     color: #eee;
+}
+.navigation a:hover {
+     color: #019b1e;
+}
+hr{
+     opacity: 10%;
+}
